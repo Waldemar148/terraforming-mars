@@ -28,6 +28,7 @@ import {Crashlanding} from './Crashlanding';
 import {CrewTraining} from './CrewTraining';
 import {Cryptocurrency} from './Cryptocurrency';
 import {CultivationOfVenus} from './CultivationOfVenus';
+import {CuriosityLabs} from './CuriosityLabs';
 import {Cyanobacteria} from './Cyanobacteria';
 import {DataLeak} from './DataLeak';
 import {DeclarationOfIndependence} from './DeclarationOfIndependence';
@@ -176,7 +177,7 @@ export const PATHFINDERS_CARD_MANIFEST = new ModuleManifest({
     [CardName.ADVANCED_POWER_GRID]: {Factory: AdvancedPowerGrid},
     [CardName.SPECIALIZED_SETTLEMENT]: {Factory: SpecializedSettlement},
     [CardName.CHARITY_DONATION]: {Factory: CharityDonation},
-    // // [CardName.CURIOSITY_LABS]: {Factory: CuriosityLabs},                          // TWO RESOURCE TYPES
+    [CardName.CURIOSITY_LABS]: {Factory: CuriosityLabs},
     [CardName.NOBEL_LABS]: {Factory: NobelLabs},
     [CardName.HUYGENS_OBSERVATORY]: {Factory: HuygensObservatory, compatibility: 'colonies'},
     [CardName.CASSINI_STATION]: {Factory: CassiniStation, compatibility: 'colonies'},

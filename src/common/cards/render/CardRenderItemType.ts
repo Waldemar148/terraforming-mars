@@ -106,4 +106,5 @@ export enum CardRenderItemType {
   SUPPLY_CHAIN = 'supply-chain',
   GEOSCAN_ICON = 'geoscan-icon',
   UNDERGROUND_SHELTERS = 'underground-shelters',
+  NANOBOT = 'nanobot',
 }

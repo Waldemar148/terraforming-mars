@@ -429,6 +429,11 @@ abstract class Builder<T> {
     return this;
   }
 
+  nanobot() {
+    this._appendToRow(new CardRenderItem(CardRenderItemType.NANOBOT, 1));
+    return this;
+  }
+
   public orbital(): this {
     this._appendToRow(new CardRenderItem(CardRenderItemType.ORBITAL, 1));
     return this;

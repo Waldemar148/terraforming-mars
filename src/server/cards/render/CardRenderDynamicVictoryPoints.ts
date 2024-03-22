@@ -27,6 +27,7 @@ const RESOURCE_TO_ITEM_TYPE: Record<CardResource, CardRenderItemType | undefined
   [CardResource.SEED]: undefined,
   [CardResource.AGENDA]: undefined,
   [CardResource.ORBITAL]: undefined,
+  [CardResource.NANOBOT]: undefined,
   [CardResource.GRAPHENE]: undefined,
   [CardResource.TOOL]: undefined,
   [CardResource.WARE]: undefined,

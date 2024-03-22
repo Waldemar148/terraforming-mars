@@ -286,6 +286,9 @@ export default Vue.extend({
       case CardRenderItemType.PLANETARY_TRACK:
         classes.push('card-planetary-track');
         break;
+      case CardRenderItemType.NANOBOT:
+        classes.push('card-nanobot');
+        break;
       case CardRenderItemType.CATHEDRAL:
         classes.push(this.cardResource, 'card-resource-cathedral');
         break;
